@@ -1,42 +1,77 @@
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #fff;
-    color: #333;
-    margin: 0;
-    padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: #f8f2ef;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
 header {
-    background-color: #B8A19D;
-    padding: 20px;
-    text-align: center;
+  background: #B8A19D;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 .logo {
-    max-width: 120px;
+  width: 100px;
 }
-nav ul {
-    list-style: none;
-    padding: 0;
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
 }
-nav ul li {
-    display: inline-block;
-    margin: 0 10px;
+main {
+  padding: 20px;
 }
-section {
-    padding: 20px;
+.menu-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
-.menu-item {
-    padding: 10px 0;
-    border-bottom: 1px solid #ccc;
+.item {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  width: 200px;
 }
-form input, form textarea, form select {
-    width: 100%;
-    margin: 10px 0;
-    padding: 10px;
+.item img {
+  width: 100%;
+  border-radius: 8px;
+}
+button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: #4d3b37;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+.order-options {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.option {
+  background: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  width: 48%;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input, textarea {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
 }
 footer {
-    background-color: #B8A19D;
-    text-align: center;
-    padding: 10px;
-    color: white;
+  background: #B8A19D;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }

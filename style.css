@@ -1,0 +1,121 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f9f5f2;
+  direction: rtl;
+}
+.hero {
+  background-color: #B8A19D;
+  color: white;
+  padding: 20px;
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topbar .domain {
+  font-weight: bold;
+}
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+.hero-content {
+  text-align: center;
+  padding: 40px 0;
+}
+.logo {
+  width: 100px;
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4b3b37;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+h2 {
+  text-align: center;
+  margin: 30px 0 10px;
+}
+.menu-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+}
+.item {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  width: 150px;
+  text-align: center;
+}
+.item img {
+  width: 100%;
+  border-radius: 6px;
+}
+.item p {
+  margin: 10px 0 5px;
+}
+.item span {
+  font-weight: bold;
+  display: block;
+}
+.item button {
+  background-color: #3a2d2a;
+  color: white;
+  border: none;
+  padding: 8px;
+  width: 100%;
+  border-radius: 5px;
+}
+.delivery-options {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+}
+.option {
+  text-align: center;
+  max-width: 200px;
+}
+.option img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+input, textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+form button {
+  background-color: #3a2d2a;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.phone {
+  text-align: center;
+  margin-top: 10px;
+}
+footer {
+  background-color: #B8A19D;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
